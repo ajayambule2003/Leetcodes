@@ -10,4 +10,3 @@ Leetcode problem solution
 4] Java Array Remove Element 
 
 5] Java Add Two Numbers
- 
