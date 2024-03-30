@@ -12,3 +12,5 @@ Leetcode problem solution
 5] Java Add Two Numbers
 
 6] Substring
+
+7] Slowest Key 
