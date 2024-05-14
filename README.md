@@ -14,3 +14,6 @@ Leetcode problem solution
 6] Substring
 
 7] Slowest Key
+
+8]Number of Beautiful Integers in the Range
+
