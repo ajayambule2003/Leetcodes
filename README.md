@@ -18,3 +18,5 @@ Leetcode problem solution
 8]Number of Beautiful Integers in the Range
 
 9]Sorting three Group
+
+10]Print in Order
