@@ -24,3 +24,6 @@ Leetcode problem solution
 11]Subdomain Visit Count
 
 12]Find the Sum of Encrypted Integers
+
+13]Mark Elements on Array by Performing Queries
+
