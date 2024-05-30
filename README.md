@@ -22,3 +22,5 @@ Leetcode problem solution
 10]Print in Order
 
 11]Subdomain Visit Count
+
+12]Find the Sum of Encrypted Integers
