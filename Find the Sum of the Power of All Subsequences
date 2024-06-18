@@ -1,0 +1,20 @@
+class Solution {
+    static int dp[][][];
+    static int mod = (int) (1e9) + 7;
+
+    static int helper(int arr[], int idx, int currSum, int k, int size){
+        if(currSum==k){
+            return (int)(Math.pow(2,arr.length-size)%mod);
+        }
+        if(idx>=arr.length || currSum>k) return 0;
+        if(dp[idx][currSum][size]!=-1) return dp[idx][currSum][size];
+
+        int ans = (helper(arr,idx+1,currSum,k,size)%mod+helper(arr,idx+1,currSum+arr[idx],k,size+1))%mod;
+        return dp[idx][currSum][size] = ans;
+    }
+    public int sumOfPower(int[] arr, int k) {
+        dp = new int[105][105][105];
+        for(var a : dp) for(var b : a) Arrays.fill(b,-1);
+        return helper(arr,0,0,k,0);
+    }
+}
