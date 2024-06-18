@@ -27,3 +27,4 @@ Leetcode problem solution
 
 13]Mark Elements on Array by Performing Queries
 
+14]Find the Sum of the Power of All Subsequences
