@@ -1,5 +1,5 @@
 class Solution {
-    static int dp[][][];
+    static int dp[][][]; 
     static int mod = (int) (1e9) + 7;
 
     static int helper(int arr[], int idx, int currSum, int k, int size){
