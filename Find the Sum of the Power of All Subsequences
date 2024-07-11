@@ -5,7 +5,7 @@ class Solution {
     static int helper(int arr[], int idx, int currSum, int k, int size){
         if(currSum==k){
             return (int)(Math.pow(2,arr.length-size)%mod);
-        }
+        } 
         if(idx>=arr.length || currSum>k) return 0;
         if(dp[idx][currSum][size]!=-1) return dp[idx][currSum][size];
 
