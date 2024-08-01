@@ -4,7 +4,7 @@ class Solution {
         for(int ele:nums){
             sum+=encrtypte(ele);
         }
-        return sum;
+        return sum; 
     }
     public int encrtypte(int n){
         int result=0;
