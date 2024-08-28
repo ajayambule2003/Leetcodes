@@ -6,7 +6,7 @@ class Solution {
             freq[ch - 'a']++;
         }
 
-        Arrays.sort(freq);
+        Arrays.sort(freq); 
 
         int result = word.length();
         int cumulativeDeleted = 0;
