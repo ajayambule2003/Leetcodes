@@ -1,4 +1,4 @@
-class Solution {
+class Solution { 
     static int dp[][][]; 
     static int mod = (int) (1e9) + 7;
 
