@@ -7,7 +7,7 @@
         return sum; 
     }
     public int encrtypte(int n){
-        int result=0;
+        int result=0; 
         int largestele=0;
         int numberofele=0;
         while(n!=0){
