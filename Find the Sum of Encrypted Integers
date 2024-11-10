@@ -10,7 +10,7 @@
         int result=0; 
         int largestele=0;
         int numberofele=0;
-        while(n!=0){
+        while(n!=0){ 
             int rem=n%10;
             if(rem>largestele){
                 largestele=rem;
