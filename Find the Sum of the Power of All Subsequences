@@ -1,7 +1,7 @@
 class Solution {  
     static int dp[][][]; 
     static int mod = (int) (1e9) + 7;
-
+ 
     static int helper(int arr[], int idx, int currSum, int k, int size){
         if(currSum==k){
             return (int)(Math.pow(2,arr.length-size)%mod);
